@@ -12,33 +12,44 @@ const two = document.querySelector(".about")
 
 const imgFeatures = document.getElementById("img-features");
 const imgcompany = document.getElementById("img-Company");
+const imgcareers = document.getElementById("img-careers");
+const imgabout = document.getElementById("img-about");
 
-function changeImageInNavs(){
+
+features.addEventListener("click", (e) =>{
+    e.preventDefault();
     if(imgFeatures.src.includes("images/icon-arrow-down.svg")){
         imgFeatures.src = "images/icon-arrow-up.svg";
     }else{
         imgFeatures.src = "images/icon-arrow-down.svg"
     }
-}
-
-features.addEventListener("click", (e) =>{
-    e.preventDefault();
-            changeImageInNavs();
         todo.classList.toggle("hidden");
 
 })
 company.addEventListener("click", (e) =>{   
     e.preventDefault();
-     changeImageInNavs();
+    if(imgcompany.src.includes("images/icon-arrow-down.svg")){
+         imgcompany.src = "images/icon-arrow-up.svg";
+    }else{
+        imgcompany.src = "images/icon-arrow-down.svg"
+    }
         history.classList.toggle("hidden");
 })
 careers.addEventListener("click", (e) =>{
     e.preventDefault();
-     changeImageInNavs();
+     if(imgcareers.src.includes("images/icon-arrow-down.svg")){
+         imgcareers.src = "images/icon-arrow-up.svg";
+    }else{
+        imgcareers.src = "images/icon-arrow-down.svg"
+    }
         one.classList.toggle("hidden");
 })
 about.addEventListener("click", (e) =>{
     e.preventDefault();
-    changeImageInNavs();
+     if(imgabout.src.includes("images/icon-arrow-down.svg")){
+         imgabout.src = "images/icon-arrow-up.svg";
+    }else{
+        imgabout.src = "images/icon-arrow-down.svg"
+    }
         two.classList.toggle("hidden");
 })
