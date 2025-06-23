@@ -42,7 +42,22 @@
 .register{
     border: 1px solid black;
     padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.register:hover{
+    background-color: rgb(213, 206, 206);
+    padding: 10px;
+}
+.login{
+    padding: 5px;
     border-radius: 5px;
+    cursor: pointer;
+}
+.login:hover{
+    color: rgb(90, 90, 172);
+    background-color: transparent;
+    padding: 10px;
 }
 .part-2{
     display: flex;
@@ -68,6 +83,11 @@
     align-items: center;
     border-radius: 25px;
     cursor: pointer;
+}
+.learn-more:hover{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
 }
 .imgs-foot{
     margin-top: 2rem;
@@ -136,4 +156,14 @@
 .hidden{
     display: flex;
 }
-
+.big-img img{
+    height: 70%;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    z-index: -1;
+}
+.part-2{
+    position: relative;
+    z-index: 1;
+}
