@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    /* display: none; */
+}
+.navs{
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    position: relative;
+}
+.fcca{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.login-register{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.5rem;
+}
+.register{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.part-2{
+    display: flex;
+    gap: 10rem;
+}
+.text h2{
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+.text p{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+.learn-more{
+    margin-top: 5rem;
+    color: white;
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    padding-top:2px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.imgs-foot{
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+
+}
+.big-img img{
+    height: 80rem;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: none;
+}
+.todo-list p{
+    display: flex;
+    gap: 1rem;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    z-index: 1;
+    display: none;
+}
+.careers{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    z-index: 1;
+    display: none;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    z-index: 1;
+    display: none;
+}
+.hidden{
+    display: flex;
+}
+
