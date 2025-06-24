@@ -85,9 +85,9 @@
     cursor: pointer;
 }
 .learn-more:hover{
-    background-color: rgb(96, 96, 209);
-    color: black;
-    padding: 20px;
+    /* background-color: rgb(96, 96, 209); */
+    color: rgb(227, 204, 204);
+    padding: 11px;
 }
 .imgs-foot{
     margin-top: 2rem;
@@ -197,24 +197,21 @@
     align-items: center;
     padding: 20px;
     border-radius: 40px;
-    margin-top: 20px;
-    gap: 5rem;
+    gap: 55rem;
 }
 .home{
-    border: 1px solid black;
     padding: 20px;
     border-radius: 40px;
 }
 .home:hover{
-    background-color: rgb(121, 121, 216);
-    padding: 25px;
+    background-color: rgb(185, 185, 208);
+    padding: 21px;
 }
 .registerlearn{
-    border: 1px solid black;
     padding: 20px;
     border-radius: 40px;
 }
 .registerlearn:hover{
-    background-color: rgb(91, 91, 193);
-    padding: 25px;
+    background-color: rgb(185, 185, 208);
+    padding: 21px;
 }
