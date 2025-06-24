@@ -2,6 +2,10 @@ const features = document.getElementById("Features");
 const company = document.getElementById("Company");
 const careers = document.getElementById("Careers");
 const about = document.getElementById("About");
+const learnMore = document.querySelector(".learn-more");
+const homePage = document.querySelector(".container");
+const onclickmore = document.querySelector(".onlick-learnmore")
+const buttonhomeonregister = document.querySelector(".home");
 
 const todo = document.querySelector(".todo-list");
 const history = document.querySelector(".history");
@@ -52,4 +56,12 @@ about.addEventListener("click", (e) =>{
         imgabout.src = "images/icon-arrow-down.svg"
     }
         two.classList.toggle("hidden");
+})
+learnMore.addEventListener("click", () =>{
+    homePage.style.display = "none";
+    onclickmore.style.display = "flex";
+})
+buttonhomeonregister.addEventListener("click", () =>{
+        homePage.style.display = "flex";
+            onclickmore.style.display = "none";
 })
